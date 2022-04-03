@@ -12,7 +12,9 @@ This project builds a business proposal for a bike sharing program based on New 
 
 ## Results
 
-Please view the Tableau story [here] (https://public.tableau.com/authoring/Challenge14_16485082943620/NYCCitibikeAnalysis#1)
+Please view the Tableau story [here](https://public.tableau.com/authoring/Challenge14_16485082943620/NYCCitibikeAnalysis#1)
+
+https://public.tableau.com/views/Challenge14_16485082943620/NYCCitibikeAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link
 
 #### 1. August 2019 Peak Hours
 
@@ -24,7 +26,7 @@ The above visual shows the total number of bikes checkout during each hour of th
 
 ![image2](/Resources/top_startting_locations.png)
 
-The dark bubbles on the above map depict the busisiest areas in all of New York City through the day. This visual combined with the previous, tells us which areas must have bikes stocked at what times to meet customer needs
+The large-dark bubbles on the above map depict the busisiest areas in all of New York City through the day, while the lighter, smaller bubbles depict the opposite. This visual combined with the previous, tells us which areas must have bikes stocked at what times to meet customer needs
 
 #### 3. Checkout Times for Users
 
@@ -52,39 +54,26 @@ The above heatmap shows the distribution of the number of trips made each day ac
 
 #### 6. User Trips by Gender by Weekday
 
-![image6](/Resources/user_trips_by_gender_by_weekday.png)
+![image6](/Resources/user_trips_by_gender_per_weekday.png)
+
+This heatmap shows the usage split among genders and types of customers. As seen in graoh 2, most users are male, followed by females and the unknown. 
+* No unknown gender users are subscribers
+* For male subscribers, as seen in visual above, most trips are made on Thursdays, followed by Monday & Tuesday
+* Trips for female subscribers are equally distributed throughout the week, with a slight slump on Wednesdays
+* Unknown gender users make most trips over the weekends
+* Non subscribed customers take most of their trips over the weekends
+
 
 #### 7. Trips by Gender (Weekday per Hour)
 
 ![image7](/Resources/trips_by_gender_weekday_per_hour.png)
 
-| Title | Employees Retiring | Employees in Mentorship Program | # of Trainees per Mentor | 
-| --- | :---: | :---: | :---: |
-| Manager | 2 | 0 | 0 |
-| Senior Engineer | 25916 | 309 | 84 |
-| Engineer | 9285 | 382 | 24 |
-| Assistant Engineer | 1090 | 57 | 19 |
-| Senior Staff | 24926 | 434 | 57 |
-| Staff | 7636 | 290 | 26 |
-| Technique Leader | 3603 | 77 | 47 |
-
-
-
+This heatmap combines visuals 5 and 6. As mentioned in above analyses, most trips are taken by males, then females and then unknown. The split through the weekdays (Thursday as the busiest, followed by Monday and Tuesday) is also reflected in this map. 
 
 ## Summary
 
 Besides the ones alreayd presented in the story, there are many more visualizations that can be created with the data provided to give more insightgul information about the biking program. For eg:
 
-1. 
+1. Plot birth year against genders to understand which genders from which agegroup are using the bikes often.
 
-2. 
-
-<p align="center">
-<img src="/Resources/retiring_employees.png" width="25%" height="20%">
-</p>
-
-![Filter Valid](/Resources/filter_valid.png)
-
-All islands of Hawaii fall in the northern hemishpere, however they're extremely close to the equator (19.9° N) therefore they lie in the Torrid[^1] zone. 
-
-[^1]: https://www.nationalgeographic.org/encyclopedia/zone/#:~:text=The%20tropical%2C%20or%20Torrid%20Zone,north%20and%20south%20temperate%20zones.
+2. On a symbol map, markers can be added for trip duration in minutes (adding code to group minutes at 5 minute intervals) filtered by color and size. This will give insights as to which stations are not going to have bikes for a certain period. This will help company purchase resources as needed and stock the stations accordingly
