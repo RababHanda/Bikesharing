@@ -12,9 +12,7 @@ This project builds a business proposal for a bike sharing program based on New 
 
 ## Results
 
-Please view the Tableau story [here](https://public.tableau.com/authoring/Challenge14_16485082943620/NYCCitibikeAnalysis#1)
-
-https://public.tableau.com/views/Challenge14_16485082943620/NYCCitibikeAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link
+Please view the Tableau story [here](https://public.tableau.com/views/Challenge14_16485082943620/NYCCitibikeAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 #### 1. August 2019 Peak Hours
 
